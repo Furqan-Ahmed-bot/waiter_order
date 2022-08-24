@@ -1,0 +1,192 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.technosysint.bxmobileapp"
+4    android:versionCode="1"
+5    android:versionName="1.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:4:5-78
+11-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:4:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:5:5-81
+12-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:5:22-78
+13
+14    <queries>
+14-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:6:5-11:15
+15        <intent>
+15-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:7:9-10:18
+16            <action android:name="android.intent.action.DIAL" />
+16-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:8:13-65
+16-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:8:21-62
+17
+18            <data android:scheme="tel" />
+18-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:9:13-42
+18-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:9:19-39
+19        </intent>
+20        <!-- Needs to be explicitly declared on Android R+ -->
+21        <package android:name="com.google.android.apps.maps" />
+21-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\hassan.haroon\.gradle\caches\transforms-3\6b01c70dc2b2e640c4eb2c7804119a20\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+21-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\hassan.haroon\.gradle\caches\transforms-3\6b01c70dc2b2e640c4eb2c7804119a20\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+22    </queries>
+23
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[:connectivity_plus] D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-79
+24-->[:connectivity_plus] D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-76
+25    <uses-permission android:name="android.permission.INTERNET" />
+25-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\hassan.haroon\.gradle\caches\transforms-3\6b01c70dc2b2e640c4eb2c7804119a20\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:24:5-67
+25-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\hassan.haroon\.gradle\caches\transforms-3\6b01c70dc2b2e640c4eb2c7804119a20\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:24:22-64
+26
+27    <uses-feature
+27-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\hassan.haroon\.gradle\caches\transforms-3\6b01c70dc2b2e640c4eb2c7804119a20\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+28        android:glEsVersion="0x00020000"
+28-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\hassan.haroon\.gradle\caches\transforms-3\6b01c70dc2b2e640c4eb2c7804119a20\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+29        android:required="true" />
+29-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\hassan.haroon\.gradle\caches\transforms-3\6b01c70dc2b2e640c4eb2c7804119a20\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+30
+31    <application
+32        android:name="android.app.Application"
+32-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:15:9-42
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.6.0] C:\Users\hassan.haroon\.gradle\caches\transforms-3\51a4d184cd6599afdadd7a31dda0ee15\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+34        android:icon="@mipmap/launcher_icon"
+34-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:16:9-45
+35        android:label="BX Mobile" >
+35-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:14:9-34
+36        <meta-data
+36-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:18:8-19:69
+37            android:name="com.google.android.geo.API_KEY"
+37-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:18:19-64
+38            android:value="AIzaSyDKYAOIjtFlJhUkdTLyt7PJORHy6iRD-Ck" />
+38-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:19:12-67
+39
+40        <activity
+40-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:21:9-41:20
+41            android:name="com.technosysint.bxmobileapp.MainActivity"
+41-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:22:13-41
+42            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+42-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:26:13-163
+43            android:exported="true"
+43-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:23:13-36
+44            android:hardwareAccelerated="true"
+44-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:27:13-47
+45            android:launchMode="singleTop"
+45-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:24:13-43
+46            android:theme="@style/LaunchTheme"
+46-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:25:13-47
+47            android:windowSoftInputMode="adjustResize" >
+47-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:28:13-55
+48
+49            <!--
+50                 Specifies an Android theme to apply to this Activity as soon as
+51                 the Android process has started. This theme is visible to the user
+52                 while the Flutter UI initializes. After that, this theme continues
+53                 to determine the Window background behind the Flutter UI.
+54            -->
+55            <meta-data
+55-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:33:13-36:17
+56                android:name="io.flutter.embedding.android.NormalTheme"
+56-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:34:15-70
+57                android:resource="@style/NormalTheme" />
+57-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:35:15-52
+58
+59            <intent-filter>
+59-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:37:13-40:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:38:17-68
+60-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:38:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:39:17-76
+62-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:39:27-74
+63            </intent-filter>
+64        </activity>
+65        <!--
+66             Don't delete the meta-data below.
+67             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+68        -->
+69        <meta-data
+69-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:44:9-46:33
+70            android:name="flutterEmbedding"
+70-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:45:13-44
+71            android:value="2" />
+71-->D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\android\app\src\main\AndroidManifest.xml:46:13-30
+72
+73        <activity
+73-->[:url_launcher_android] D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+74            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+74-->[:url_launcher_android] D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+75            android:exported="false"
+75-->[:url_launcher_android] D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+76            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+76-->[:url_launcher_android] D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+77
+78        <service
+78-->[:location] D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:13:9-17:56
+79            android:name="com.lyokone.location.FlutterLocationService"
+79-->[:location] D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-71
+80            android:enabled="true"
+80-->[:location] D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-35
+81            android:exported="false"
+81-->[:location] D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-37
+82            android:foregroundServiceType="location" />
+82-->[:location] D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-53
+83
+84        <activity
+84-->[:trust_location] D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\build\trust_location\intermediates\merged_manifest\release\AndroidManifest.xml:13:9-20:20
+85            android:name="com.wongpiwat.trust_location.TrustLocationPlugin"
+85-->[:trust_location] D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\build\trust_location\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-76
+86            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+86-->[:trust_location] D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\build\trust_location\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-144
+87            android:hardwareAccelerated="true"
+87-->[:trust_location] D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\build\trust_location\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-47
+88            android:launchMode="singleTop"
+88-->[:trust_location] D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\build\trust_location\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-43
+89            android:theme="@android:style/Theme.Black.NoTitleBar"
+89-->[:trust_location] D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\build\trust_location\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-66
+90            android:windowSoftInputMode="adjustResize" >
+90-->[:trust_location] D:\Hassan Projects\BxMobile\ts-app-development-main\ts-app-development-main\build\trust_location\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-55
+91        </activity>
+92
+93        <uses-library
+93-->[androidx.window:window:1.0.0-beta04] C:\Users\hassan.haroon\.gradle\caches\transforms-3\65d7f496e0c0fefec8fa7195c7c8a034\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+94            android:name="androidx.window.extensions"
+94-->[androidx.window:window:1.0.0-beta04] C:\Users\hassan.haroon\.gradle\caches\transforms-3\65d7f496e0c0fefec8fa7195c7c8a034\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+95            android:required="false" />
+95-->[androidx.window:window:1.0.0-beta04] C:\Users\hassan.haroon\.gradle\caches\transforms-3\65d7f496e0c0fefec8fa7195c7c8a034\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+96        <uses-library
+96-->[androidx.window:window:1.0.0-beta04] C:\Users\hassan.haroon\.gradle\caches\transforms-3\65d7f496e0c0fefec8fa7195c7c8a034\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+97            android:name="androidx.window.sidecar"
+97-->[androidx.window:window:1.0.0-beta04] C:\Users\hassan.haroon\.gradle\caches\transforms-3\65d7f496e0c0fefec8fa7195c7c8a034\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+98            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+98-->[androidx.window:window:1.0.0-beta04] C:\Users\hassan.haroon\.gradle\caches\transforms-3\65d7f496e0c0fefec8fa7195c7c8a034\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+99        <uses-library
+99-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\hassan.haroon\.gradle\caches\transforms-3\6b01c70dc2b2e640c4eb2c7804119a20\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+100            android:name="org.apache.http.legacy"
+100-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\hassan.haroon\.gradle\caches\transforms-3\6b01c70dc2b2e640c4eb2c7804119a20\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+101            android:required="false" />
+101-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\hassan.haroon\.gradle\caches\transforms-3\6b01c70dc2b2e640c4eb2c7804119a20\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+102
+103        <activity
+103-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\hassan.haroon\.gradle\caches\transforms-3\c13d9e5ecb09d9c19ab8309c72c4c353\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+104            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+104-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\hassan.haroon\.gradle\caches\transforms-3\c13d9e5ecb09d9c19ab8309c72c4c353\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+105            android:exported="false"
+105-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\hassan.haroon\.gradle\caches\transforms-3\c13d9e5ecb09d9c19ab8309c72c4c353\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+106            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+106-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\hassan.haroon\.gradle\caches\transforms-3\c13d9e5ecb09d9c19ab8309c72c4c353\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+107
+108        <meta-data
+108-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\hassan.haroon\.gradle\caches\transforms-3\fc0b42180d6cfa4088f876f2de646fba\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+109            android:name="com.google.android.gms.version"
+109-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\hassan.haroon\.gradle\caches\transforms-3\fc0b42180d6cfa4088f876f2de646fba\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+110            android:value="@integer/google_play_services_version" />
+110-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\hassan.haroon\.gradle\caches\transforms-3\fc0b42180d6cfa4088f876f2de646fba\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+111    </application>
+112
+113</manifest>

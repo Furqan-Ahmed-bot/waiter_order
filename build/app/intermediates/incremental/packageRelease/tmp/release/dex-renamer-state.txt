@@ -1,0 +1,4 @@
+#Tue Aug 23 16:44:14 PKT 2022
+base.0=D\:\\Hassan Projects\\BxMobile\\ts-app-development-main\\ts-app-development-main\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
